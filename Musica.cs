@@ -9,14 +9,11 @@ class Musica
     public bool Disponivel { get; set; }
     public bool Possuiplano { get; set; }
 
-
+    //aplicando expressoes LAMBDA em C#
+    //quero nessa expressão apenas informa 
+    //propriedade somente de leitura que sera mostrada no Console 
     //Atribuindo somente o get tomamos o controle do codigo fazendo com que não consigam Atribuir valores a esse atributo 
-    public string DescricaoResumida {
-        get
-        {
-            return $"A musica {NomedaMusca} pertence a banda {Artista}";
-        }
-    }
+    public string DescricaoResumida => $"A musica pertence a Banda {Artista}";
 
 
     //corportamento de uma musica criando um metodo
@@ -24,8 +21,7 @@ class Musica
     {
         Console.WriteLine($"Nome: {NomedaMusca}");
         Console.WriteLine($"Artista: {Artista}");
-        Console.WriteLine($"Duração: {Duracao} " + " min");
-
+        Console.WriteLine($"Duração: {Duracao} " + " min");  
 
         if (Disponivel)
         {

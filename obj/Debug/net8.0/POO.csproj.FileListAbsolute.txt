@@ -12,3 +12,4 @@ C:\POO\POO\POO\obj\Debug\net8.0\refint\POO.dll
 C:\POO\POO\POO\obj\Debug\net8.0\POO.pdb
 C:\POO\POO\POO\obj\Debug\net8.0\POO.genruntimeconfig.cache
 C:\POO\POO\POO\obj\Debug\net8.0\ref\POO.dll
+C:\POO\POO\POO\obj\Debug\net8.0\POO.sourcelink.json

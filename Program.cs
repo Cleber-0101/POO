@@ -14,8 +14,7 @@ musica1.Artista = "Banda Drop";
 musica1.Duracao = 10;
 musica1.Disponivel = true;
 musica1.Possuiplano = true;
-musica1.DescricaoResumida = "ddd";
-
+Console.WriteLine(musica1.DescricaoResumida);
 
 Musica musica2 = new Musica();
 musica2.NomedaMusca = "teste criação de musicas";
