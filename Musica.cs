@@ -15,7 +15,6 @@ class Musica
     //Atribuindo somente o get tomamos o controle do codigo fazendo com que não consigam Atribuir valores a esse atributo 
     public string DescricaoResumida => $"A musica pertence a Banda {Artista}";
 
-
     //corportamento de uma musica criando um metodo
     public void ExibirfichaTecnica()
     {
